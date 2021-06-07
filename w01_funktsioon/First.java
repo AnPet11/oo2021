@@ -10,8 +10,6 @@ public class First{
         String[] greetingsArray = new String[]{"Hello", "world", "!"}; 
 
 
-        String[] stringArray = new String[5];
-
         String name = "Angelina";
         int year = 2021;  
         
@@ -33,7 +31,7 @@ public class First{
         }
 
         // foreach
-        for (String text : greetinsArray){ // for (String text : args){
+        for (String text : greetingsArray){ // for (String text : args){
             System.out.println(text);
         }
 
@@ -49,7 +47,7 @@ public class First{
         } else if (year > 2021){
             System.out.println(year + " is larger than 2021");
         } else {
-            System.out.println(yesr + " is not equal or larger than 2021");
+            System.out.println(year + " is not equal or larger than 2021");
         }
 
         System.out.println("Hello world");
